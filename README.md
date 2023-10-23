@@ -1,14 +1,17 @@
-Instructions:
+## Instructions:
 
-1- Create a new component called Car. 2- Import Car component into Garage.tsx 3- The Car component will render three dynamic properties which are Brand, model and Year. Properties that are sent from Garage into Car. \* At least render three cars.
+1- First, explore the Next.js file. Take a look around at the structure of the files. Which components are imported and which are exported, etc.
 
-2- Render the props one by one first, then by using destruction.
+2- Currently, the variable `count` can not be updated in the UI. Re-create the variable using `useState` hook.
 
-3- After you finish the preivous step. Try to put the vsriables into an array and render them into Cars.
+3- Create three functions that correspond to the three already existing functions:
+Increment: Adds 1 to the count.
+Decrement: Removes 1 from the count.
+Reset: Brings the count back to 0.
 
-## How to run the app
+4- Make sure to call the functions in their respective buttons using `onClick`.
 
-```bash
-npm install
-npm run dev
-```
+\*Bonus:
+After finishing all the above,
+Create an Input tag that takes a number from the user,
+and depending on this number the increament button should increase the counter by its value
